@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ValueHolderTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-09-16T05:38:58" hostname="Hannahs-Air.app.byu.edu" time="0.077">
+  <properties/>
+  <testcase name="testJsonConversion()" classname="ValueHolderTest" time="0.077"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
