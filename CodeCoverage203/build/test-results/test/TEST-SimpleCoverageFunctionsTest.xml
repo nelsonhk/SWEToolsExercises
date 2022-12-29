@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SimpleCoverageFunctionsTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-10-08T11:51:08" hostname="Hannahs-MacBook-Air.local" time="0.048">
+  <properties/>
+  <testcase name="addTwoNumTest()" classname="SimpleCoverageFunctionsTest" time="0.041"/>
+  <testcase name="doWeirdStuff()" classname="SimpleCoverageFunctionsTest" time="0.002"/>
+  <testcase name="returnLargest()" classname="SimpleCoverageFunctionsTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
