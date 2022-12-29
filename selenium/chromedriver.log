@@ -1,0 +1,438 @@
+[1636496382.635][INFO]: Starting ChromeDriver 95.0.4638.54 (d31a821ec901f68d0d34ccdbaea45b4c86ce543e-refs/branch-heads/4638@{#871}) on port 23900
+[1636496382.635][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1636496382.668][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      }
+   }
+}
+[1636496382.669][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1636496382.669][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1636496382.670][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --allow-pre-commit-input --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/32/q1rm2z794z19w4c3lzvndp_r0000gn/T/.com.google.Chrome.0C8KSh data:,
+[1636496384.253][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1636496384.593][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "95.0.4638.69",
+      "chrome": {
+         "chromedriverVersion": "95.0.4638.54 (d31a821ec901f68d0d34ccdbaea45b4c86ce543e-refs/branch-heads/4638@{#871})",
+         "userDataDir": "/var/folders/32/q1rm2z794z19w4c3lzvndp_r0000gn/T/.com.google.Chrome.0C8KSh"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:49879"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac os x",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "484c5dfc318f69942c8cb2b3bc01e7db"
+}
+[1636496384.630][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] COMMAND Navigate {
+   "url": "http://localhost:8080"
+}
+[1636496384.630][INFO]: Waiting for pending navigations...
+[1636496384.632][INFO]: Done waiting for pending navigations. Status: ok
+[1636496384.836][INFO]: Waiting for pending navigations...
+[1636496385.612][INFO]: Done waiting for pending navigations. Status: ok
+[1636496385.612][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] RESPONSE Navigate
+[1636496385.630][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input"
+}
+[1636496385.630][INFO]: Waiting for pending navigations...
+[1636496385.630][INFO]: Done waiting for pending navigations. Status: ok
+[1636496385.672][INFO]: Waiting for pending navigations...
+[1636496385.696][INFO]: Done waiting for pending navigations. Status: ok
+[1636496385.696][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "48d6f5c4-dbf8-46f3-a863-60330f9ffa38"
+}
+[1636496385.701][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] COMMAND TypeElement {
+   "id": "48d6f5c4-dbf8-46f3-a863-60330f9ffa38",
+   "text": "Learn Selenium",
+   "value": [ "L", "e", "a", "r", "n", " ", "S", "e", "l", "e", "n", "i", "u", "m" ]
+}
+[1636496385.716][INFO]: Waiting for pending navigations...
+[1636496385.717][INFO]: Done waiting for pending navigations. Status: ok
+[1636496385.875][INFO]: Waiting for pending navigations...
+[1636496385.901][INFO]: Done waiting for pending navigations. Status: ok
+[1636496385.901][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] RESPONSE TypeElement
+[1636496385.907][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "48d6f5c4-dbf8-46f3-a863-60330f9ffa38"
+   } ],
+   "script": "var form = arguments[0];\nwhile (form.nodeName != \"FORM\" && form.parentNode) {\n  form = form.parentNode;\n}\nif (!form) { throw Error('Unable to find containing form element'); }\nif (!form.ownerDocument) { throw Error('Unable to find owning document'); }\nvar e = form.ownerDocument.createEvent('Event');\ne.initEvent('submit', true, true);\nif (form.dispatchEvent(e)) { HTMLFormElement.prototype.submit.call(form) }\n"
+}
+[1636496385.907][INFO]: Waiting for pending navigations...
+[1636496385.911][INFO]: Done waiting for pending navigations. Status: ok
+[1636496385.921][INFO]: Waiting for pending navigations...
+[1636496385.921][INFO]: Done waiting for pending navigations. Status: ok
+[1636496385.921][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] RESPONSE ExecuteScript null
+[1636496385.943][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] COMMAND ClearElement {
+   "id": "48d6f5c4-dbf8-46f3-a863-60330f9ffa38"
+}
+[1636496385.943][INFO]: Waiting for pending navigations...
+[1636496385.946][INFO]: Done waiting for pending navigations. Status: ok
+[1636496385.977][INFO]: 
+	=== NOTE: ===
+	The Clear command in ChromeDriver 2.43 and above
+	has been updated to conform to the current standard,
+	including raising blur event after clearing.
+
+[1636496385.985][INFO]: Waiting for pending navigations...
+[1636496385.986][INFO]: Done waiting for pending navigations. Status: ok
+[1636496385.986][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] RESPONSE ClearElement
+[1636496385.990][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] COMMAND TypeElement {
+   "id": "48d6f5c4-dbf8-46f3-a863-60330f9ffa38",
+   "text": "Understanding and modifying an existing codebase",
+   "value": [ "U", "n", "d", "e", "r", "s", "t", "a", "n", "d", "i", "n", "g", " ", "a", "n", "d", " ", "m", "o", "d", "i", "f", "y", "i", "n", "g", " ", "a", "n", " ", "e", "x", "i", "s", "t", "i", "n", "g", " ", "c", "o", "d", "e", "b", "a", "s", "e" ]
+}
+[1636496385.990][INFO]: Waiting for pending navigations...
+[1636496385.991][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.042][INFO]: Waiting for pending navigations...
+[1636496386.050][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.050][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] RESPONSE TypeElement
+[1636496386.058][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "48d6f5c4-dbf8-46f3-a863-60330f9ffa38"
+   } ],
+   "script": "var form = arguments[0];\nwhile (form.nodeName != \"FORM\" && form.parentNode) {\n  form = form.parentNode;\n}\nif (!form) { throw Error('Unable to find containing form element'); }\nif (!form.ownerDocument) { throw Error('Unable to find owning document'); }\nvar e = form.ownerDocument.createEvent('Event');\ne.initEvent('submit', true, true);\nif (form.dispatchEvent(e)) { HTMLFormElement.prototype.submit.call(form) }\n"
+}
+[1636496386.058][INFO]: Waiting for pending navigations...
+[1636496386.059][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.063][INFO]: Waiting for pending navigations...
+[1636496386.064][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.065][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] RESPONSE ExecuteScript null
+[1636496386.083][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] COMMAND ClearElement {
+   "id": "48d6f5c4-dbf8-46f3-a863-60330f9ffa38"
+}
+[1636496386.083][INFO]: Waiting for pending navigations...
+[1636496386.090][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.108][INFO]: Waiting for pending navigations...
+[1636496386.108][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.108][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] RESPONSE ClearElement
+[1636496386.111][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] COMMAND TypeElement {
+   "id": "48d6f5c4-dbf8-46f3-a863-60330f9ffa38",
+   "text": "Static analysis with IntelliJ Static Analyzer",
+   "value": [ "S", "t", "a", "t", "i", "c", " ", "a", "n", "a", "l", "y", "s", "i", "s", " ", "w", "i", "t", "h", " ", "I", "n", "t", "e", "l", "l", "i", "J", " ", "S", "t", "a", "t", "i", "c", " ", "A", "n", "a", "l", "y", "z", "e", "r" ]
+}
+[1636496386.111][INFO]: Waiting for pending navigations...
+[1636496386.112][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.154][INFO]: Waiting for pending navigations...
+[1636496386.158][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.158][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] RESPONSE TypeElement
+[1636496386.162][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "48d6f5c4-dbf8-46f3-a863-60330f9ffa38"
+   } ],
+   "script": "var form = arguments[0];\nwhile (form.nodeName != \"FORM\" && form.parentNode) {\n  form = form.parentNode;\n}\nif (!form) { throw Error('Unable to find containing form element'); }\nif (!form.ownerDocument) { throw Error('Unable to find owning document'); }\nvar e = form.ownerDocument.createEvent('Event');\ne.initEvent('submit', true, true);\nif (form.dispatchEvent(e)) { HTMLFormElement.prototype.submit.call(form) }\n"
+}
+[1636496386.162][INFO]: Waiting for pending navigations...
+[1636496386.163][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.166][INFO]: Waiting for pending navigations...
+[1636496386.166][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.166][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] RESPONSE ExecuteScript null
+[1636496386.182][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] COMMAND ClearElement {
+   "id": "48d6f5c4-dbf8-46f3-a863-60330f9ffa38"
+}
+[1636496386.182][INFO]: Waiting for pending navigations...
+[1636496386.183][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.194][INFO]: Waiting for pending navigations...
+[1636496386.196][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.196][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] RESPONSE ClearElement
+[1636496386.202][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] COMMAND TypeElement {
+   "id": "48d6f5c4-dbf8-46f3-a863-60330f9ffa38",
+   "text": "Code profiling with YourKit",
+   "value": [ "C", "o", "d", "e", " ", "p", "r", "o", "f", "i", "l", "i", "n", "g", " ", "w", "i", "t", "h", " ", "Y", "o", "u", "r", "K", "i", "t" ]
+}
+[1636496386.202][INFO]: Waiting for pending navigations...
+[1636496386.202][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.238][INFO]: Waiting for pending navigations...
+[1636496386.244][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.244][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] RESPONSE TypeElement
+[1636496386.250][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "48d6f5c4-dbf8-46f3-a863-60330f9ffa38"
+   } ],
+   "script": "var form = arguments[0];\nwhile (form.nodeName != \"FORM\" && form.parentNode) {\n  form = form.parentNode;\n}\nif (!form) { throw Error('Unable to find containing form element'); }\nif (!form.ownerDocument) { throw Error('Unable to find owning document'); }\nvar e = form.ownerDocument.createEvent('Event');\ne.initEvent('submit', true, true);\nif (form.dispatchEvent(e)) { HTMLFormElement.prototype.submit.call(form) }\n"
+}
+[1636496386.250][INFO]: Waiting for pending navigations...
+[1636496386.251][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.254][INFO]: Waiting for pending navigations...
+[1636496386.256][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.256][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] RESPONSE ExecuteScript null
+[1636496386.276][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] COMMAND ClearElement {
+   "id": "48d6f5c4-dbf8-46f3-a863-60330f9ffa38"
+}
+[1636496386.276][INFO]: Waiting for pending navigations...
+[1636496386.281][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.296][INFO]: Waiting for pending navigations...
+[1636496386.296][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.297][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] RESPONSE ClearElement
+[1636496386.305][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] COMMAND TypeElement {
+   "id": "48d6f5c4-dbf8-46f3-a863-60330f9ffa38",
+   "text": "Dependency Management Tools: Maven and Gradle",
+   "value": [ "D", "e", "p", "e", "n", "d", "e", "n", "c", "y", " ", "M", "a", "n", "a", "g", "e", "m", "e", "n", "t", " ", "T", "o", "o", "l", "s", ":", " ", "M", "a", "v", "e", "n", " ", "a", "n", "d", " ", "G", "r", "a", "d", "l", "e" ]
+}
+[1636496386.305][INFO]: Waiting for pending navigations...
+[1636496386.306][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.350][INFO]: Waiting for pending navigations...
+[1636496386.352][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.352][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] RESPONSE TypeElement
+[1636496386.364][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "48d6f5c4-dbf8-46f3-a863-60330f9ffa38"
+   } ],
+   "script": "var form = arguments[0];\nwhile (form.nodeName != \"FORM\" && form.parentNode) {\n  form = form.parentNode;\n}\nif (!form) { throw Error('Unable to find containing form element'); }\nif (!form.ownerDocument) { throw Error('Unable to find owning document'); }\nvar e = form.ownerDocument.createEvent('Event');\ne.initEvent('submit', true, true);\nif (form.dispatchEvent(e)) { HTMLFormElement.prototype.submit.call(form) }\n"
+}
+[1636496386.364][INFO]: Waiting for pending navigations...
+[1636496386.364][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.369][INFO]: Waiting for pending navigations...
+[1636496386.369][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.369][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] RESPONSE ExecuteScript null
+[1636496386.393][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] COMMAND ClearElement {
+   "id": "48d6f5c4-dbf8-46f3-a863-60330f9ffa38"
+}
+[1636496386.393][INFO]: Waiting for pending navigations...
+[1636496386.397][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.416][INFO]: Waiting for pending navigations...
+[1636496386.417][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.417][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] RESPONSE ClearElement
+[1636496386.425][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] COMMAND TypeElement {
+   "id": "48d6f5c4-dbf8-46f3-a863-60330f9ffa38",
+   "text": "Unit Testing with JUnit",
+   "value": [ "U", "n", "i", "t", " ", "T", "e", "s", "t", "i", "n", "g", " ", "w", "i", "t", "h", " ", "J", "U", "n", "i", "t" ]
+}
+[1636496386.426][INFO]: Waiting for pending navigations...
+[1636496386.426][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.459][INFO]: Waiting for pending navigations...
+[1636496386.463][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.463][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] RESPONSE TypeElement
+[1636496386.467][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "48d6f5c4-dbf8-46f3-a863-60330f9ffa38"
+   } ],
+   "script": "var form = arguments[0];\nwhile (form.nodeName != \"FORM\" && form.parentNode) {\n  form = form.parentNode;\n}\nif (!form) { throw Error('Unable to find containing form element'); }\nif (!form.ownerDocument) { throw Error('Unable to find owning document'); }\nvar e = form.ownerDocument.createEvent('Event');\ne.initEvent('submit', true, true);\nif (form.dispatchEvent(e)) { HTMLFormElement.prototype.submit.call(form) }\n"
+}
+[1636496386.467][INFO]: Waiting for pending navigations...
+[1636496386.467][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.471][INFO]: Waiting for pending navigations...
+[1636496386.475][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.475][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] RESPONSE ExecuteScript null
+[1636496386.494][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] COMMAND ClearElement {
+   "id": "48d6f5c4-dbf8-46f3-a863-60330f9ffa38"
+}
+[1636496386.494][INFO]: Waiting for pending navigations...
+[1636496386.494][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.503][INFO]: Waiting for pending navigations...
+[1636496386.503][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.503][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] RESPONSE ClearElement
+[1636496386.509][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[contains(text(), 'Learn Selenium')]/parent::li"
+}
+[1636496386.509][INFO]: Waiting for pending navigations...
+[1636496386.509][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.539][INFO]: Waiting for pending navigations...
+[1636496386.540][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.540][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "fb2a26a9-d5c8-49ad-b0e7-9b8a5666aef0"
+}
+[1636496386.547][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] COMMAND FindChildElement {
+   "id": "fb2a26a9-d5c8-49ad-b0e7-9b8a5666aef0",
+   "using": "css selector",
+   "value": ".completed\\-checkbox"
+}
+[1636496386.547][INFO]: Waiting for pending navigations...
+[1636496386.547][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.553][INFO]: Waiting for pending navigations...
+[1636496386.554][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.554][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "a71a9cbc-679d-4d9b-9d4c-a33e3a980a5c"
+}
+[1636496386.559][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] COMMAND ClickElement {
+   "id": "a71a9cbc-679d-4d9b-9d4c-a33e3a980a5c"
+}
+[1636496386.559][INFO]: Waiting for pending navigations...
+[1636496386.560][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.635][INFO]: Waiting for pending navigations...
+[1636496386.643][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.643][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] RESPONSE ClickElement
+[1636496386.649][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[contains(text(), 'Code profiling with YourKit')]/parent::li"
+}
+[1636496386.649][INFO]: Waiting for pending navigations...
+[1636496386.649][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.659][INFO]: Waiting for pending navigations...
+[1636496386.660][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.660][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "502a927b-fe2a-4471-9fed-d2080513fdf9"
+}
+[1636496386.664][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] COMMAND FindChildElement {
+   "id": "502a927b-fe2a-4471-9fed-d2080513fdf9",
+   "using": "css selector",
+   "value": ".completed\\-checkbox"
+}
+[1636496386.664][INFO]: Waiting for pending navigations...
+[1636496386.664][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.671][INFO]: Waiting for pending navigations...
+[1636496386.671][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.671][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "1876a694-4dcd-4d35-b430-9b7934e492c4"
+}
+[1636496386.676][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] COMMAND ClickElement {
+   "id": "1876a694-4dcd-4d35-b430-9b7934e492c4"
+}
+[1636496386.676][INFO]: Waiting for pending navigations...
+[1636496386.676][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.715][INFO]: Waiting for pending navigations...
+[1636496386.720][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.720][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] RESPONSE ClickElement
+[1636496386.723][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#show\\-completed"
+}
+[1636496386.723][INFO]: Waiting for pending navigations...
+[1636496386.724][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.729][INFO]: Waiting for pending navigations...
+[1636496386.730][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.730][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "c08ef46a-6331-49a7-96de-2dbb3c1a7de7"
+}
+[1636496386.732][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] COMMAND ClickElement {
+   "id": "c08ef46a-6331-49a7-96de-2dbb3c1a7de7"
+}
+[1636496386.732][INFO]: Waiting for pending navigations...
+[1636496386.733][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.752][INFO]: Waiting for pending navigations...
+[1636496386.754][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.754][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] RESPONSE ClickElement
+[1636496386.756][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".todo\\-text"
+}
+[1636496386.756][INFO]: Waiting for pending navigations...
+[1636496386.757][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.763][INFO]: Waiting for pending navigations...
+[1636496386.763][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.763][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "3eac7614-0de2-47da-87e9-540bec19ea4f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "74e112ca-f917-4bb9-aab2-ebae405590ff"
+} ]
+[1636496386.765][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] COMMAND GetElementText {
+   "id": "3eac7614-0de2-47da-87e9-540bec19ea4f"
+}
+[1636496386.765][INFO]: Waiting for pending navigations...
+[1636496386.765][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.777][INFO]: Waiting for pending navigations...
+[1636496386.778][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.778][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] RESPONSE GetElementText "Learn Selenium"
+[1636496386.780][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] COMMAND GetElementText {
+   "id": "74e112ca-f917-4bb9-aab2-ebae405590ff"
+}
+[1636496386.780][INFO]: Waiting for pending navigations...
+[1636496386.780][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.787][INFO]: Waiting for pending navigations...
+[1636496386.787][INFO]: Done waiting for pending navigations. Status: ok
+[1636496386.787][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] RESPONSE GetElementText "Code profiling with YourKit"
+[1636496389.801][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] COMMAND ClearElement {
+   "id": "48d6f5c4-dbf8-46f3-a863-60330f9ffa38"
+}
+[1636496389.801][INFO]: Waiting for pending navigations...
+[1636496389.803][INFO]: Done waiting for pending navigations. Status: ok
+[1636496389.833][INFO]: Waiting for pending navigations...
+[1636496389.834][INFO]: Done waiting for pending navigations. Status: ok
+[1636496389.834][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] RESPONSE ClearElement
+[1636496389.841][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] COMMAND Quit {
+
+}
+[1636496389.892][INFO]: [484c5dfc318f69942c8cb2b3bc01e7db] RESPONSE Quit

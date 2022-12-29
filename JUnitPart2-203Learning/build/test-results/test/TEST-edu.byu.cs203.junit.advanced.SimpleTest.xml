@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.byu.cs203.junit.advanced.SimpleTest" tests="17" skipped="0" failures="0" errors="0" timestamp="2021-10-02T05:29:35" hostname="Hannahs-Air" time="0.174">
+  <properties/>
+  <testcase name="[1] 1, 1" classname="edu.byu.cs203.junit.advanced.SimpleTest" time="0.064"/>
+  <testcase name="[2] 2, -2" classname="edu.byu.cs203.junit.advanced.SimpleTest" time="0.001"/>
+  <testcase name="[3] -3, -3" classname="edu.byu.cs203.junit.advanced.SimpleTest" time="0.002"/>
+  <testcase name="[1] 2, 1" classname="edu.byu.cs203.junit.advanced.SimpleTest" time="0.0"/>
+  <testcase name="[2] 2, -3" classname="edu.byu.cs203.junit.advanced.SimpleTest" time="0.004"/>
+  <testcase name="[3] -3, -3" classname="edu.byu.cs203.junit.advanced.SimpleTest" time="0.001"/>
+  <testcase name="[1] 2, 1, 2" classname="edu.byu.cs203.junit.advanced.SimpleTest" time="0.003"/>
+  <testcase name="[2] 3, -1, 1" classname="edu.byu.cs203.junit.advanced.SimpleTest" time="0.001"/>
+  <testcase name="[3] -1, -1, 1" classname="edu.byu.cs203.junit.advanced.SimpleTest" time="0.002"/>
+  <testcase name="[1] 3, 0" classname="edu.byu.cs203.junit.advanced.SimpleTest" time="0.015"/>
+  <testcase name="[1] 2, 1" classname="edu.byu.cs203.junit.advanced.SimpleTest" time="0.0"/>
+  <testcase name="[2] -2, 3" classname="edu.byu.cs203.junit.advanced.SimpleTest" time="0.0"/>
+  <testcase name="[3] -3, -3" classname="edu.byu.cs203.junit.advanced.SimpleTest" time="0.001"/>
+  <testcase name="[1] 2, 1" classname="edu.byu.cs203.junit.advanced.SimpleTest" time="0.001"/>
+  <testcase name="[2] 0, 3" classname="edu.byu.cs203.junit.advanced.SimpleTest" time="0.001"/>
+  <testcase name="[3] 3, -3" classname="edu.byu.cs203.junit.advanced.SimpleTest" time="0.0"/>
+  <testcase name="[4] -4, -4" classname="edu.byu.cs203.junit.advanced.SimpleTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
