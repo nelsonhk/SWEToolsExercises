@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+    <util:list id="classes">
+        <ref bean="CS120"/>
+        <ref bean="CS205"/>
+    </util:list>
+
+    <context:component-scan  base-package="dao,service" />
+    <bean id="dataSource"
+          class = "org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name = "driverClassName" value = "org.sqlite.JDBC"/>
+        <property name = "url" value = "jdbc:sqlite:data.sqlite"/>
+    </bean>
+
+    <context:component-scan  base-package="dao,service" />
+    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate" autowire="byName"/>
+
+    <context:component-scan  base-package="dao,service" />
+    <bean id="CS120" class = "model.Class">
+        <!--use constructor injection here-->
+        <constructor-arg value="44444" />
+        <constructor-arg value="CS120" />
+        <constructor-arg value="HFAC B350" />
+        <constructor-arg value="Dr. Wilkerson" />
+    </bean>
+
+    <context:component-scan  base-package="dao,service" />
+    <bean id="CS205" class = "model.Class">
+        <!--use setter injection here-->
+        <property name="classID" value="55555"/>
+        <property name="className" value="CS205"/>
+        <property name="room" value="HFAC A450"/>
+        <property name="professor" value="Dr. Rodham"/>
+    </bean>
+
+</beans>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CalculatorTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2021-10-30T16:25:43" hostname="Hannahs-Air" time="0.07">
+  <properties/>
+  <testcase name="powerTest_ZeroValueNegativePower()" classname="CalculatorTest" time="0.027"/>
+  <testcase name="addTest()" classname="CalculatorTest" time="0.003"/>
+  <testcase name="powerTest_PositiveValueNegativePower()" classname="CalculatorTest" time="0.001"/>
+  <testcase name="powerTest_PositiveValuePostivePower()" classname="CalculatorTest" time="0.001"/>
+  <testcase name="powerTest_NegativeValueZeroPower()" classname="CalculatorTest" time="0.0"/>
+  <testcase name="subtractTest()" classname="CalculatorTest" time="0.002"/>
+  <testcase name="powerTest_NegativeValuePositivePower()" classname="CalculatorTest" time="0.002"/>
+  <testcase name="powerTest_PostiveValueZeroPower()" classname="CalculatorTest" time="0.001"/>
+  <testcase name="powerTest_NegativeValueNegativePower()" classname="CalculatorTest" time="0.001"/>
+  <testcase name="powerTest_ZeroValuePositivePower()" classname="CalculatorTest" time="0.003"/>
+  <testcase name="powerTest_ZeroValueZeroPower()" classname="CalculatorTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
